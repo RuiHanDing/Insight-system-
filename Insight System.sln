@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insight System", "Insight System\Insight System.csproj", "{216DC0A9-177E-4CD3-BA31-A27CA84A72C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insight System.Tests", "Insight System.Tests\Insight System.Tests.csproj", "{A7A6C56C-6818-4D61-A34D-B0C5489384B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{216DC0A9-177E-4CD3-BA31-A27CA84A72C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216DC0A9-177E-4CD3-BA31-A27CA84A72C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216DC0A9-177E-4CD3-BA31-A27CA84A72C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216DC0A9-177E-4CD3-BA31-A27CA84A72C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A6C56C-6818-4D61-A34D-B0C5489384B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A6C56C-6818-4D61-A34D-B0C5489384B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A6C56C-6818-4D61-A34D-B0C5489384B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A6C56C-6818-4D61-A34D-B0C5489384B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EBE2283-0041-450C-8B99-618D832ED9AD}
+	EndGlobalSection
+EndGlobal
