@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Go..";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<h4 style="text-align:center">Picture Gallery</h4>
+<!-- Slideshow container -->
+<div class="container">
+    <div class="mySlides">
+        <div class="numbertext">1 / 5</div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+        <img src="https://www.clermontauvergnetourisme.com/wp-content/uploads/external/4095501-1600x900.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+        <img src="https://cdn.theculturetrip.com/wp-content/uploads/2016/09/main-bar-at-tir-na-nog.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <img src="https://s-ec.bstatic.com/images/hotel/max1024x768/147/147997361.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <img src="https://www.therobinreport.com/wp-content/uploads/2018/02/Brown_Lubelczyk_ATK-FutureShoppingCenters.jpg" style="width:100%">
+    </div>
+
+
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg" style="width:100%" onclick="currentSlide(1)" alt="Foods">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://www.clermontauvergnetourisme.com/wp-content/uploads/external/4095501-1600x900.jpg" style="width:100%" onclick="currentSlide(2)" alt="Places">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://cdn.theculturetrip.com/wp-content/uploads/2016/09/main-bar-at-tir-na-nog.jpg" style="width:100%" onclick="currentSlide(3)" alt="Bars">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://s-ec.bstatic.com/images/hotel/max1024x768/147/147997361.jpg" style="width:100%" onclick="currentSlide(4)" alt="Hotels">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="https://www.therobinreport.com/wp-content/uploads/2018/02/Brown_Lubelczyk_ATK-FutureShoppingCenters.jpg" style="width:100%" onclick="currentSlide(5)" alt="Shops">
+        </div>
+
+    </div>
+</div>
+
